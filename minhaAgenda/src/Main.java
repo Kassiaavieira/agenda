@@ -3,6 +3,7 @@ public class Main {
         Telefone telefone = new Telefone();
         Agenda agenda = new Agenda();
         Pessoa pessoa = new Pessoa();
+        agenda.addnome("kassia");
         
 }
 }

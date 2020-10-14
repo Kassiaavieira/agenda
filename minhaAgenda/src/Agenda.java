@@ -16,8 +16,10 @@ public class Agenda {
     public void setPessoa(List Pessoa) {
         this.pessoa = Pessoa;
     }
-    public void addnome(Pessoa nome, Telefone telefone){
-        pessoa.add(nome);
+    
+    public void addnome(String nome){
+        nome = nome;
+        System.out.println(nome);
 
     }
 }
