@@ -1,18 +1,23 @@
 import java.util.List;
 public class Agenda {
-    private List <Pessoa> Pessoa;
+    private List <Pessoa> pessoa;
 
     public Agenda() {
-        this.Pessoa = Pessoa;
+        this.pessoa = pessoa;
     }
+
+    
     
 
     public List getPessoa() {
-        return Pessoa;
+        return pessoa;
     }
 
     public void setPessoa(List Pessoa) {
-        this.Pessoa = Pessoa;
+        this.pessoa = Pessoa;
     }
-    
+    public void addnome(Pessoa nome, Telefone telefone){
+        pessoa.add(nome);
+
+    }
 }
